@@ -12,3 +12,44 @@ p {
 	width: 90%;
 
 }
+
+ul.nav li {
+	display: inline;
+}
+
+a.navBtn {
+	padding:10px 12px;
+	border: 1px solid gray;
+	text-align: center;
+	display: inline;
+	background-color: rgba(200,200,200,0.5); 
+	border-radius: 5px;
+
+}
+
+a.navBtn:link {
+    color: black;
+}
+
+a.navBtn:visited {
+    color: black;
+}
+
+a.navBtn:hover {
+	margin: 2px 1px 1px 2px;
+	background-color: rgba(200,200,200,0.8); 
+}
+
+
+/*.my-button{
+  padding: 10px 12px;
+  border: 1px solid aqua;
+  color: aqua;
+  background-color: blue;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 5px;
+}
+.my-button:hover{
+  margin: 2px 0 0 2px;
+}*/
